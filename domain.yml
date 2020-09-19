@@ -1,0 +1,35 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- why_chatobots
+- get_demo
+- get_a_meeting
+- get_started
+responses:
+  utter_greet:
+  - text: Hey! i`m CABY here to help you with all your queries and tell you more about
+      Smart personal assistant that we create for your business.Would you like to
+      know more about the smart personal assistants ?
+  utter_briefing:
+  - text: "Our Solutions focus on: \n\U0001F449 Conversational assistant that assists\
+      \ in resolving complex customer queries \n\U0001F449 End to end customer lifecycle\
+      \ by step walk through with lead generation, customer care, conversion and after\
+      \ sales management. \n\U0001F449 3rd party integration;Integration with already\
+      \ existing business core systems such us ERP, M-PESA, SMS, PESAPAL, Email, calendar\n\
+      Seeing is believing! Would you like to see a demo of personal or  contact us\
+      \ to ?"
+  utter_demo_intro:
+  - text: This demo is for restaurant, so lets see whats on menu and order for take
+      out something to eat. Go a head and make your order
+  - text: This demo is for restaurant, im hungry lets see whats available on the menu
+      and make our order. Make an order
+actions:
+- utter_greet
+- utter_briefing
+- utter_demo_1
+- utter_demo_intro
