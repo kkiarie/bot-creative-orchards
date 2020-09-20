@@ -24,10 +24,10 @@ responses:
       Seeing is believing! Would you like to see a demo of personal or  contact us\
       \ to ?"
   utter_demo_intro:
-  - text: This demo is for restaurant, so lets see whats on menu and order for take
-      out something to eat. Go a head and make your order
-  - text: This demo is for restaurant, im hungry lets see whats available on the menu
-      and make our order. Make an order 
+  - text: "We have a demo is for restaurant, so lets see whats on menu and order for take
+      out something to eat. Go a head and make your order."
+  - text: "We have a demo for restaurant, im hungry lets see whats available on the menu
+      and make our order. Make an order."
 actions:
 - utter_greet
 - utter_briefing
